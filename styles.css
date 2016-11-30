@@ -7,7 +7,6 @@ html, body {
 	/*font-family: 'Work Sans', sans-serif;*/
 	/*font-family: 'Karla', sans-serif;*/
 	font-family: 'Lato', sans-serif;
-	font-weight: 100;
 	text-align: center;
 } 
 
@@ -100,13 +99,23 @@ div {
 	font-size: 2rem;	
 	line-height: 30px;
 	text-align: left;
-	margin-top: 6rem;
+	margin-top: 7rem;
 }
 
 .img-circle1 {
 	height: 26rem;
     width: 27rem;
     border-radius: 50%;
+}
+
+.div-white {
+	color: #000;
+	margin: 1rem 0rem 3rem;
+	width: 100%;
+}
+
+.div-tech {
+	margin-bottom: 4rem;
 }
 
 .port {
@@ -116,6 +125,11 @@ div {
 
 .portfolio {
 	margin: 11rem 0rem 2rem;
+	/*font-size: 2.5rem;*/
+}
+
+.div-tech h3{
+	font-family: 'Raleway', sans-serif;
 }
 
 .show-proj {
@@ -181,7 +195,7 @@ video::-webkit-media-controls {
     display:none !important;
 }	
 
-'3last {
+div-video-last {
 	margin-bottom: 5rem;
 }
 
@@ -195,12 +209,22 @@ video::-webkit-media-controls {
 	padding: 8rem 0rem;
 }
 
+.div-blue h2 {
+	/*font-family: 'Raleway', sans-serif;*/
+}
+
 .div-blue h3 {
-	color: #165783;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.8rem;
+	color: #0f3a57;
+}
+
+.div-white h3 {
+	font-family: 'Raleway', sans-serif;
 }
 
 .div-blue a {
-	color: #165783;
+	color: #0f3a57;
 }
 
 .div-small {
@@ -224,6 +248,7 @@ video::-webkit-media-controls {
 
 .div-contact h3 {
 	font-size: 4rem;
+	font-family: 'Raleway', sans-serif;
  	color: #165783;
 }	
 
