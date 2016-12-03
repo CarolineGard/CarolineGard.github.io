@@ -163,6 +163,10 @@ div {
 	margin-top: 2rem;
 }
 
+.img-border {
+	border:1px solid black;
+}
+
 .video {
 	height: 38rem;
 	width: 38rem;
