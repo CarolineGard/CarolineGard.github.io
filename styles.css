@@ -141,7 +141,7 @@ div {
 }
 
 .div-video {
-	margin-bottom: -5rem;
+	margin-bottom: -7rem;
 }
 
 .div-video-last {
@@ -155,12 +155,21 @@ div {
 
 .proj2 {
 	background-image: url("./images/medusa.png");
-	background-size: cover;
+}
+
+.txt-head {
+	margin-top: 1.5rem;
 }
 
 .txt-proj {
-	padding: 0rem 4.5rem;
-	margin-top: 2rem;
+	padding: 0rem 5.5rem;
+	margin-top: 0.5rem;
+	text-align: left;
+}
+
+.txt-proj-big {
+	padding: 0rem 25.5rem;
+	text-align: left;
 }
 
 .img-border {
@@ -170,7 +179,7 @@ div {
 .video {
 	height: 38rem;
 	width: 38rem;
-	border:1px solid black;
+	border: 1px solid black;
 }
 
 .video-sm {
@@ -192,6 +201,7 @@ div {
 .video-noframe {
 	height: 55rem;
 	width: 90rem;
+	margin-bottom: -2rem;
 }
 
 /* Hide Play button + controls on iOS */
