@@ -74,15 +74,6 @@ div {
 	font-size: 12rem;
 }
 
-/*.band {
-	height: 4rem;
-	width: 5rem;
-	background-image: url("./images/band.png");
-	background-size: cover;
-	display: block;
-    margin: auto;
-}*/
-
 .presentation {
 	background-color: #59ABE3;
 	color: #fff;
@@ -144,6 +135,17 @@ div {
 	margin-bottom: -7rem;
 }
 
+.div-video-dog {
+	width: 1350px;
+	padding-top: 0;
+	margin-top: -200px; 
+	margin: 0 auto;
+}
+
+.dog {
+	margin-bottom: -7.5rem;
+}
+
 .div-video-last {
 	margin-bottom: 10rem;
 }
@@ -185,16 +187,22 @@ div {
 	text-align: left;
 }
 
-.txt-head-dog {
-	margin-top: 7rem;
-	padding: 0rem 25.5rem;
+.txt-proj-big {
+	padding: 0rem 270px;
 	text-align: left;
 }
 
 .txt-proj-bigsquare {
 	padding: 0rem 450px;
-	text-align: left;
+	text-align: center;
 }
+/*.txt-head-dog {
+	margin-top: 2rem;
+	padding: 0rem 32rem;
+	text-align: left;
+}*/
+
+
 
 
 .img-border {
@@ -205,6 +213,11 @@ div {
 	height: 38rem;
 	width: 38rem;
 	border: 1px solid black;
+}
+
+.video-dog {
+	height: 42rem;
+	width: 42rem;
 }
 
 .video-sm {
