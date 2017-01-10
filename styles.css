@@ -135,7 +135,7 @@ div {
 .show-proj {
 	background-color: #59ABE3;
 	display: block;
-	height: 35rem;
+	height: 34.1rem;
     margin: auto;
     width: 35rem;
 }
@@ -157,6 +157,19 @@ div {
 	background-image: url("./images/medusa.png");
 }
 
+.img-nobel {
+	background-image: url("./images/nobel.png");
+	background-size: cover;
+}
+
+.show-proj2 {
+	background-color: #fff;
+	display: block;
+	height: 70rem;
+    margin: auto;
+    width: 65rem;
+}
+
 .txt-head {
 	margin-top: 1.5rem;
 }
@@ -171,6 +184,12 @@ div {
 	padding: 0rem 25.5rem;
 	text-align: left;
 }
+
+.txt-proj-bigsquare {
+	padding: 0rem 450px;
+	text-align: left;
+}
+
 
 .img-border {
 	border:1px solid black;
@@ -202,6 +221,18 @@ div {
 	height: 55rem;
 	width: 90rem;
 	margin-bottom: -2rem;
+}
+
+.video-noframe-square {
+	height: 550px;
+	width: 550px;
+	margin-bottom: 0rem;
+}
+
+.video-tech {
+	height: 34rem;
+	width: 38rem;
+	border: 1px solid black;
 }
 
 /* Hide Play button + controls on iOS */
