@@ -180,7 +180,13 @@ div {
 	text-align: left;
 }
 
-.txt-proj-big {
+.txt-head-big {
+	padding: 0rem 25.5rem;
+	text-align: left;
+}
+
+.txt-head-dog {
+	margin-top: 7rem;
 	padding: 0rem 25.5rem;
 	text-align: left;
 }
