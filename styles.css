@@ -1,11 +1,9 @@
 html, body {
 	width: 100%;
 	height: 100%;
+	max-width: 1600px;
 	margin: 0 auto;
 	padding: 0;
-	/*font-family: 'Hind', sans-serif;*/
-	/*font-family: 'Work Sans', sans-serif;*/
-	/*font-family: 'Karla', sans-serif;*/
 	font-family: 'Lato', sans-serif;
 	text-align: center;
 } 
@@ -177,9 +175,11 @@ div {
 }
 
 .txt-proj {
-	padding: 0rem 5.5rem;
-	margin-top: 0.5rem;
-	text-align: left;
+    padding: 0rem 5.5rem;
+    text-align: left;
+    max-width: 50rem;
+    margin: 0 auto;
+}
 }
 
 .txt-head-big {
@@ -189,21 +189,15 @@ div {
 
 .txt-proj-big {
 	padding: 0rem 270px;
-	text-align: left;
+    text-align: left;
+    max-width: 145rem;
+    margin: 0 auto;
 }
 
 .txt-proj-bigsquare {
 	padding: 0rem 450px;
 	text-align: center;
 }
-/*.txt-head-dog {
-	margin-top: 2rem;
-	padding: 0rem 32rem;
-	text-align: left;
-}*/
-
-
-
 
 .img-border {
 	border:1px solid black;
@@ -336,30 +330,20 @@ div-video-last {
 	padding: 1.5% 0px 0px 3%;
 }
 
-/*big screens*/
-@media (min-width: 1850px) {
-	.div-intro {
-		padding-top: 45rem;
-	}
-
-	.presentation h3{
-		padding: 2rem 35rem;
-	}
-
-	.img-circle {
-		height: 20%;
-		width: 20%;
-	}
-}
-
 /*small screens*/
 @media (max-width: 1000px) {
+	body, html {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
 	h1 { 
-		font-size: 7rem;
+		font-size: 11rem;
 	}
 
 	h2 { 
-		font-size: 7rem;
+		font-size: 9rem;
 	 }
 
 	h3 { 
@@ -380,6 +364,7 @@ div-video-last {
 
 	.div-intro {
 		padding-top: 65rem;
+		width: 100%;
 	}
 
 	.presentation {
@@ -427,6 +412,25 @@ div-video-last {
 	}	
 }
 
+/*big screens*/
+@media (min-width: 1850px) {
+	.body, html {
+		/*width: 1800px;*/
+	}
+
+	.div-intro {
+		padding-top: 45rem;
+	}
+/*
+	.presentation h3{
+		padding: 2rem 35rem;
+	}
+
+	.img-circle {
+		height: 20%;
+		width: 20%;
+	}*/
+}
 
 
 
