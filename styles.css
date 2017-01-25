@@ -66,6 +66,8 @@ div {
 	text-align: center;
 	padding: 24rem 0rem;
 	width: 100%;
+	background-color: #F5AB35;
+	color: #fff;
 }
 
 .div-intro h1 {
@@ -73,7 +75,8 @@ div {
 }
 
 .presentation {
-	background-color: #59ABE3;
+	/*background-color: #59ABE3;*/
+	background-color: #ffc061;
 	color: #fff;
 	font-size: 20rem;	
 	line-height: 20px;
@@ -295,25 +298,50 @@ div-video-last {
 	color: #0f3a57;
 }
 
-.div-white h3 {
-	font-family: 'Raleway', sans-serif;
+.div-yellow {
+	background-color: #F5AB35;
+	color: #fff;
+	padding: 10rem 0rem;
 }
 
-.div-blue a {
-	color: #0f3a57;
+.div-yellow h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.8rem;
+	color: #bb6604;
+	margin: 0;
+}
+
+.div-white {
+	background-color: #ffc061;
+	margin: 0;
+	padding: 10rem 0; 
+	color: #bb6604;
+}
+
+.div-white h2 {
+	color: #fff;
+}
+
+.div-white h3 {
+	font-family: 'Raleway', sans-serif;
+	color: #bb6604;
+}
+
+.div-white a {
+	color: #fff;
+	cursor: pointer;
 }
 
 .div-small {
 	padding: 1rem 20rem;
 }
 
-
 .div-experience {
-	padding: 10rem 0rem;
+	padding: 15rem 0rem;
 }
 
 .div-contact {
-	background-color: #59ABE3;
+	background-color: #F5AB35;
 	color: #fff;
 	padding: 6rem 0rem 2rem;
 }
@@ -325,7 +353,16 @@ div-video-last {
 .div-contact h3 {
 	font-size: 4rem;
 	font-family: 'Raleway', sans-serif;
- 	color: #165783;
+ 	color: #bb6604;
+}
+
+.div-contact a, i {
+	color: #fff;
+}	
+
+.div-contact a, i:hover {
+	color: #bb6604;
+	cursor: pointer;
 }	
 
 .div-contact h4 {
@@ -346,6 +383,8 @@ div-video-last {
 	height: 0rem;
 	background-color: #262626;
 	padding: 1.5% 0px 0px 3%;
+	height: 6rem;
+	color: #fff;
 }
 
 @media (max-width: 1340px) {
