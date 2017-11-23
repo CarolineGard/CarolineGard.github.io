@@ -22,6 +22,7 @@ html, body {
 
 .div-intro h1 {
 	font-size: 7rem;
+
 }
 
 .div-start img {
@@ -48,7 +49,6 @@ i {
     bottom: 0;
     left: 0;
     right: 0;
-
     margin: auto;
 }
 
@@ -133,26 +133,3 @@ i {
 .div-parallax-base {
 	transform: translateZ(0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
