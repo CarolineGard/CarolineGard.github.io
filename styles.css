@@ -1,121 +1,125 @@
-html, body {
-	width: 100%;
-	margin: 0 auto;
-	padding: 0;
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	color: #fff;
-	position: relative;
-	height: 100%;
-	background-color: #86E2D5;
-	/*background-color: #1a1a1a;*/
+html,
+body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  height: 100%;
+  background-color: #86e2d5;
+  /*background-color: #1a1a1a;*/
 }
 
-
 .div-intro {
-	animation: mymove3 0.8s;
-	font-family: 'Quattrocento Sans', sans-serif;
-	height: 100%;
-	text-align: center;
-	width: 100%;
+  animation: mymove3 0.8s;
+  font-family: "Quattrocento Sans", sans-serif;
+  height: 100%;
+  text-align: center;
+  width: 100%;
 }
 
 .div-intro h1 {
-	font-size: 7rem;
-
+  font-size: 7rem;
 }
 
 .div-start img {
-	-webkit-filter: invert(100%);
-    filter: invert(100%);
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 
 .icon {
-	margin-top: 10rem;
+  margin-top: 10rem;
 }
 
 i {
-	color: #fff;
+  color: #fff;
 }
 
 .div-start {
-	animation: mymove1 0.8s;
-	width: 50rem;
-    height: 15rem;
-    /*background-color: red;*/
+  animation: mymove1 0.8s;
+  width: 50rem;
+  height: 15rem;
+  /*background-color: red;*/
 
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
-
 
 @keyframes mymove3 {
-    from {
-      transform: translateY(45px);
-      opacity: 0.8;
+  from {
+    transform: translateY(45px);
+    opacity: 0.8;
   }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-@keyframes fadein{
-    0% { opacity:0; }
-    66% { opacity:0; }
-    100% { opacity:1; }
-}
-
-
-.img-circle {
-	height: 20rem;
-	width: 20rem;
-    border-radius: 50%;
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .div-about {
-	margin: 0 auto;
-	margin-top: 60rem;
-	width: 100%;
-	height: 60rem;
-	padding: 6rem 7rem 0 7rem;
-	background-color: #333333;
+  margin: 0 auto;
+  margin-top: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30rem;
+  padding: 6rem 7rem 0 7rem;
+  background-color: #333333;
 }
 
 .div-about h3 {
-	margin-top: 2rem; 
+  margin-top: 2rem;
 }
 
 .div-contact {
-	margin: auto;
-	margin: 2rem 10rem 6rem 10rem;
+  margin: auto;
+  margin: 2rem 10rem 6rem 10rem;
 }
 
 .div-contact h1 {
-	font-size: 4rem;
+  font-size: 4rem;
 }
 
 .div-contact h4 {
-	font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 #text-contact {
-	padding: 2.5rem 0rem 0rem 0rem; 
+  padding: 2.5rem 0rem 0rem 0rem;
 }
 
 .text-icons {
-	padding-top: 2rem;
+  padding-top: 2rem;
+}
+
+.flex-item {
+  justify-self: center;
 }
 
 .div-parallax {
-	perspective: 1px;
-  	height: 100vh;
-  	overflow-x: hidden;
-  	overflow-y: auto;
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .parallax_layer {
@@ -126,10 +130,10 @@ i {
   left: 0;
 }
 
-.div-parallax-back {	
-	transform: translateZ(-1px) scale(2);
+.div-parallax-back {
+  transform: translateZ(-1px) scale(2);
 }
 
 .div-parallax-base {
-	transform: translateZ(0);
+  transform: translateZ(0);
 }
